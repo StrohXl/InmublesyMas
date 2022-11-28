@@ -13,7 +13,7 @@ export default function Portada() {
     <div className="Portada">
       <Row justify={'space-between'} wrap >
         <Col className='w-4/6 flex items-center justify-center m-auto'>
-          <div className="">
+          <div className=" lg:ml-20">
             <Title level={2} className="font-playfair text-sm">Bienbenidos a Inmuebles y mas donde ofrecemos los mejores servicios a la hora de adquirir inmuebles y automoviles.</Title>
             <Title level={4} >
               Para registrarse de forma gratuita presione aqui
@@ -23,10 +23,10 @@ export default function Portada() {
         </Col>
         <Col className="flex items-center m-auto mt-12">
 
-          <Carousel dots='none' autoplay effect="fade" className="w-60 lg:w-96 flex items-center">
+          <Carousel dots='none' autoplay effect="fade" className="w-60 md:w-96 flex items-center">
             {images.map(function (item, index) {
               return <div key={index}>
-                <img className="rounded-full w-60 h-60 lg:w-96 lg:h-96" src={item} />
+                <img className="rounded-full w-60 h-60 md:w-96 md:h-96" src={item} />
               </div>
 
             })}

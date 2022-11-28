@@ -4,6 +4,7 @@ import Portada from '../components/Portada';
 import Beneficios from '../components/Beneficios';
 import Oportunidad from '../components/Oportunidad';
 import Seguridad from '../components/Seguridad';
+import Redes from '../components/Redes';
 const {Title} = Typography
 export default function Home() {
   
@@ -11,6 +12,7 @@ export default function Home() {
     <Head>
     <title>Inmueblesymas</title>
     </Head>
+   <Redes/>
    <Portada/>
    <Beneficios/>
    <Seguridad/>

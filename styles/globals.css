@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 .Portada {
-    background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(253, 253, 253, 0.4)), url(https://img.freepik.com/fotos-premium/moderna-sala-blanca-chimenea_244125-173.jpg?w=2000);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), #64748b9f), url(https://img.freepik.com/fotos-premium/moderna-sala-blanca-chimenea_244125-173.jpg?w=2000);
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     padding-top: 48px;

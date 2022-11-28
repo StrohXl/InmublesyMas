@@ -8,7 +8,7 @@ const Beneficios = () => {
             'La compra de un inmueble también genera plusvalía y retorno de inversión. La plusvalía es el incremento de valor que genera una propiedad con el paso del tiempo, mientras que el retorno de inversión calcula el tiempo que te tomará recuperar la inversión y si es rentable la compra.'
         ]
     return (
-        <div className="bg-slate-600">
+        <div className="bg-slate-500">
             <Row wrap className="w-full pt-12" justify={'space-around'}>
                 <Col className="flex items-center" key={1}>
                     <div className="bg-white rounded-full" >
@@ -17,9 +17,9 @@ const Beneficios = () => {
                 </Col>
                 <Col className="md:w-3/6 mb-11">
                     <div >
-                        <Title className="mx-3 text-center mt-5">BENEFICIOS</Title>
+                        <h1 className="mx-3 text-5xl text-center mt-5 text-white font-playfair">Beneficios</h1>
                         {items.map(function (item, index) {
-                            return <Paragraph className="text-lg mx-5 text-justify" key={index}>{item}</Paragraph>
+                            return <Paragraph className="text-lg mx-5 text-justify text-white font-playfair" key={index}>{item}</Paragraph>
                         })}
 
                     </div>
